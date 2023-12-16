@@ -318,6 +318,14 @@ LIGHTS: dict[str, tuple[SmartLifeLightEntityDescription, ...]] = {
             color_temp=DPCode.TEMP_CONTROLLER,
         ),
     ),
+    # Range hood
+    # Not documented
+    "yyj": (
+        SmartLifeLightEntityDescription(
+            key=DPCode.LIGHT,
+            name="Light",
+        ),
+    ),
     # Fan
     # https://developer.tuya.com/en/docs/iot/categoryfs?id=Kaiuz1xweel1c
     "fs": (
