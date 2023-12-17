@@ -30,6 +30,7 @@ SMART_LIFE_SUPPORT_TYPE = {
     "fskg",  # Fan wall switch
     "kj",  # Air Purifier
     "cs",  # Dehumidifier
+    "yyj",  # Range hood
 }
 
 
